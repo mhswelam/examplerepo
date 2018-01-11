@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+
+
+
+body, html {
+    height: 100%;
+    background: #222 url('../images/background.jpg') center center no-repeat;
+}
+
+
+.top-div { 
+    background-color: #b9b8b8;
+}
+
+.bottom-div {
+	background-color: rgb(63, 146, 240);
+}
+
+
+
+#link {
+  color: #0000ff;  
+}
+
+ul {
+  list-style-type: none;
+}
+
+#cover {
+ 
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: top;
+}
+
+#logincover {
+  background: #222 url('../images/background.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+#cover-caption {
+  width: 100%;
+}
+#container{
+	max-width: 400px;
+	min-height: 300px;  
+}
+
+.border-top-radius{
+  border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+}
+
+.border-bottom-radius {
+  border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+
+.meg {
+  color: red;
+}
+#failmsg {
+  color: red;
+}
+#mgBar {
+  background-color: rgb(216, 153, 111)
+}
+#infoList {
+  text-align: left;
+  align-items: left;
+}
+
+#panel {
+  text-align: left;
+  background-color:rgb(63, 146, 240);
+}
+
+.pull-right {
+  float: right !important;
+}
+
+
+
+

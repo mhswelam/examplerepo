@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- jquery -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/app.js" type="text/javascript"></script>
+<title>DashBoard</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Expense Reimbursement System (ERS)</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Account Info <span class="sr-only">(current)</span></a></li>
+        <li><a href="#" id="updateviewpanal">Update Account Info</a></li>
+        <li><a href="#" id="reimreq">Request Reimbursement</a></li>
+        <li><a href="#" id="reqviewpanal">View Reimbursement Requests</a></li>
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+        <form action="logout" method="GET">
+          <button type="submit" class="btn btn-success form-control input-lg" id="logoutBtn">Logout</button>
+        </form>
+        
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+
+    
+  </div><!-- /.container-fluid -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+    <div id="mgbar">
+
+    </div>
+  </div>
+</nav>
+
+
+<section id="cover">
+  <div id="cover-caption">
+      <div  class="container ">
+        <div class="row top-div border-top-radius" >
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3" id="userInfo">
+                <ul class="list-group">
+                    <li class="list-group-item" id="infoList">UserName :<span id="usern"></span></li>
+                    <li class="list-group-item" id="infoList">First Name :<span id="first"></span></li>
+                    <li class="list-group-item" id="infoList">Last Name :<span id="last"></span></li>
+                    <li class="list-group-item" id="infoList">Email :<span id="email"></span></li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row bottom-div border-bottom-radius" >
+            <div class="row">
+              <!--    BLOCK 1 Panal  -->
+              <div class="col-md-12 col-md-offset-0" id="block1">
+                
+
+              </div>
+              <!--    End of BLOCK 1 Panal  -->
+              
+                    <!--    BLOCK 2 Panal  -->
+              <div class="col-md-12 col-md-offset-0" id="block2">
+                 
+              </div>
+              <!--    End of BLOCK 2 Panal  -->
+          </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>

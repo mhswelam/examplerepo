@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--<script src="js/login.js" type="text/javascript"></script>-->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title>ERS Login</title>
+</head>
+<body >
+<section id="logincover">
+    <div id="cover-caption">
+        <div id="container" class="container" >
+        	<div class="row top-div border-top-radius" >
+        		<div class="col-sm-10 offset-sm-1 text-center">
+        			<h1 class="display-3">Login</h1>
+        		</div>
+        	</div>
+ 
+            <div class="row bottom-div border-bottom-radius" >
+                <div class="col-sm-10 offset-sm-1 text-center">
+                    <br>
+                    <div class="info-form">
+                        <div class="justify-content-center">
+                            <form method="POST" action="login" class="form-group">
+                                <div class="form-group">
+                                    <input type="text" id="userName" required name="userName" class="form-control input-lg" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" id="userPass" required name="userPass" class="form-control input-lg" placeholder="Password">
+                                </div>
+                            
+ 							    <div class="form-group">
+                                    <button type="submit" id="btn" class="btn btn-success form-control input-lg">Login</button>
+                                </div> 
+                                <br>
+                            </form>  
+                            <p id="meg"></p> 
+                                                   
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
